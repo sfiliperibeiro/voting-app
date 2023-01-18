@@ -9,7 +9,7 @@ const App = () => {
 
   return (
     <div>
-      {name ? `O meu nome é ${name}.` : "Eu estou anónimo!"}
+      {name ? `O meu nome será ${name}.` : "Eu estou anónimo!"}
       <hr />
       <input type="text" value={name} onChange={handleChange} />
     </div>
